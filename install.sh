@@ -17,7 +17,7 @@ else:
 
 # Install Oracle Java 8
 apt-get update
-apt-get install -y python-software-properties
+apt-get install -y software-properties-common 
 add-apt-repository -y ppa:webupd8team/java
 apt-get update
 echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections
